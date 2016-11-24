@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Sunday</key>
+	<dict>
+		<key>Chest</key>
+		<dict>
+			<key>Bench Press</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+	</dict>
+	<key>Monday</key>
+	<dict>
+		<key>Back</key>
+		<dict>
+			<key>Rows</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+		<key>Chest</key>
+		<dict>
+			<key>Bench Press</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+	</dict>
+	<key>Tuesday</key>
+	<dict>
+		<key>Chest</key>
+		<dict>
+			<key>Bench Press</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+	</dict>
+	<key>Wednesday</key>
+	<dict>
+		<key>Chest</key>
+		<dict>
+			<key>Bench Press</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+	</dict>
+	<key>Thursday</key>
+	<dict>
+		<key>Chest</key>
+		<dict>
+			<key>Bench Press</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+	</dict>
+	<key>Friday</key>
+	<dict>
+		<key>Chest</key>
+		<dict>
+			<key>Bench Press</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+	</dict>
+	<key>Saturday</key>
+	<dict>
+		<key>Chest</key>
+		<dict>
+			<key>Bench Press</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

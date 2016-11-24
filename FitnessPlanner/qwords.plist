@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Day</key>
+	<dict>
+		<key>Exercise</key>
+		<dict>
+			<key>NumSetsNumReps</key>
+			<array>
+				<string>3</string>
+				<integer>12</integer>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

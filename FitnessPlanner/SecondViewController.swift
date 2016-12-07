@@ -14,6 +14,13 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        let barView = view as! ProgressBar
+        barView.frame = CGRect(x: 0, y:0, width: self.view.frame.width, height: self.view.frame.height * 0.5)
+        barView.setNeedsDisplay()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

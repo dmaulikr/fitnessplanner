@@ -12,6 +12,8 @@ class DetailExerciseControllerViewController: UIViewController, UITableViewDeleg
     
     var numSets = 0
     var numReps = 0
+    var row = 0
+    var section = 0
     var exercise : String = ""
     var completions : Int = 0
     var cellsSelected = [Bool]()
@@ -72,7 +74,7 @@ class DetailExerciseControllerViewController: UIViewController, UITableViewDeleg
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let cell = tableView.cellForRow(at: indexPath) {
             if(!cellsSelected[indexPath.row]) {
-                ProgressBar.PBInstance.setsCompleted += 1
+                WorkoutInformation.WIInstance.setsCompleted += 1
             }
             cellsSelected[indexPath.row] = true
             cell.accessoryType = .checkmark
@@ -82,7 +84,7 @@ class DetailExerciseControllerViewController: UIViewController, UITableViewDeleg
     func clearCheckMarks(_ tableView: UITableView) {
         for cell in tableView.visibleCells {
             if (cell.accessoryType == UITableViewCellAccessoryType.checkmark) {
-                ProgressBar.PBInstance.setsCompleted -= 1
+                WorkoutInformation.WIInstance.setsCompleted -= 1
             }
             cell.accessoryType = .none
         }
@@ -101,6 +103,7 @@ class DetailExerciseControllerViewController: UIViewController, UITableViewDeleg
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         let masterVC = segue.destination as! FirstViewController
+        masterVC.rowCompletions[row] = false
         print("Exercise is \(exercise)")
         if(exercise != "") {
             var count = 0
@@ -108,6 +111,11 @@ class DetailExerciseControllerViewController: UIViewController, UITableViewDeleg
                 if(bool) {
                     count += 1
                 }
+            }
+            if(count == numSets) {
+                masterVC.rowCompletions[row] = true
+                print("We completed the row")
+                masterVC.tblView.cellForRow(at: IndexPath(row: row, section: section))?.backgroundColor = UIColor.green
             }
             masterVC.completions[exercise] = count
             print("Are we even here")

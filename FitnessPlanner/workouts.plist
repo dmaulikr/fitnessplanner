@@ -4,41 +4,366 @@
 <dict>
 	<key>Sunday</key>
 	<dict>
+		<key>Delts/Traps</key>
+		<dict>
+			<key>Lateral Raises</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Dumbbell Shoulder Press</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Machine Shoulder Press</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Cable Raises</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Front Raises</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+		<key>Arms</key>
+		<dict>
+			<key>Preacher Curls</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Tricep Extensions</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Reg Dumbbell Curls</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>SkullCrushers</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+		<key>Legs</key>
+		<dict>
+			<key>Squats</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Deadlifts</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Leg Extensions</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Leg Curls</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>Pullups</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Bent Over Rows</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Lat Pulldowns</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Rows</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
 		<key>Chest</key>
 		<dict>
+			<key>Cables</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Incline Bench</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Flys</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
 			<key>Bench Press</key>
 			<array>
 				<integer>3</integer>
 				<integer>12</integer>
-				<integer>0</integer>
 			</array>
 		</dict>
 	</dict>
 	<key>Monday</key>
 	<dict>
+		<key>Delts/Traps</key>
+		<dict>
+			<key>Lateral Raises</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Dumbbell Shoulder Press</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Machine Shoulder Press</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Cable Raises</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Front Raises</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+		<key>Arms</key>
+		<dict>
+			<key>Preacher Curls</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Tricep Extensions</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Reg Dumbbell Curls</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>SkullCrushers</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+		<key>Legs</key>
+		<dict>
+			<key>Squats</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Deadlifts</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Leg Extensions</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Leg Curls</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
 		<key>Back</key>
 		<dict>
+			<key>Pullups</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Bent Over Rows</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Lat Pulldowns</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
 			<key>Rows</key>
 			<array>
 				<integer>3</integer>
 				<integer>12</integer>
-				<integer>0</integer>
 			</array>
 		</dict>
 		<key>Chest</key>
 		<dict>
+			<key>Cables</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Incline Bench</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Flys</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
 			<key>Bench Press</key>
 			<array>
 				<integer>3</integer>
 				<integer>12</integer>
-				<integer>0</integer>
 			</array>
 		</dict>
 	</dict>
 	<key>Tuesday</key>
 	<dict>
+		<key>Delts/Traps</key>
+		<dict>
+			<key>Lateral Raises</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Dumbbell Shoulder Press</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Machine Shoulder Press</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Cable Raises</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Front Raises</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+		<key>Arms</key>
+		<dict>
+			<key>Preacher Curls</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Tricep Extensions</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Reg Dumbbell Curls</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>SkullCrushers</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+		<key>Legs</key>
+		<dict>
+			<key>Squats</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Deadlifts</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Leg Extensions</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Leg Curls</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>Pullups</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Bent Over Rows</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Lat Pulldowns</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Rows</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
 		<key>Chest</key>
 		<dict>
+			<key>Cables</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Incline Bench</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Flys</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
 			<key>Bench Press</key>
 			<array>
 				<integer>3</integer>
@@ -48,8 +373,120 @@
 	</dict>
 	<key>Wednesday</key>
 	<dict>
+		<key>Delts/Traps</key>
+		<dict>
+			<key>Lateral Raises</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Dumbbell Shoulder Press</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Machine Shoulder Press</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Cable Raises</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Front Raises</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+		<key>Arms</key>
+		<dict>
+			<key>Preacher Curls</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Tricep Extensions</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Reg Dumbbell Curls</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>SkullCrushers</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+		<key>Legs</key>
+		<dict>
+			<key>Squats</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Deadlifts</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Leg Extensions</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Leg Curls</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>Pullups</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Bent Over Rows</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Lat Pulldowns</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Rows</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
 		<key>Chest</key>
 		<dict>
+			<key>Cables</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Incline Bench</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Flys</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
 			<key>Bench Press</key>
 			<array>
 				<integer>3</integer>
@@ -59,8 +496,120 @@
 	</dict>
 	<key>Thursday</key>
 	<dict>
+		<key>Delts/Traps</key>
+		<dict>
+			<key>Lateral Raises</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Dumbbell Shoulder Press</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Machine Shoulder Press</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Cable Raises</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Front Raises</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+		<key>Arms</key>
+		<dict>
+			<key>Preacher Curls</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Tricep Extensions</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Reg Dumbbell Curls</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>SkullCrushers</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+		<key>Legs</key>
+		<dict>
+			<key>Squats</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Deadlifts</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Leg Extensions</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Leg Curls</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>Pullups</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Bent Over Rows</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Lat Pulldowns</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Rows</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
 		<key>Chest</key>
 		<dict>
+			<key>Cables</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Incline Bench</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Flys</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
 			<key>Bench Press</key>
 			<array>
 				<integer>3</integer>
@@ -70,8 +619,120 @@
 	</dict>
 	<key>Friday</key>
 	<dict>
+		<key>Delts/Traps</key>
+		<dict>
+			<key>Lateral Raises</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Dumbbell Shoulder Press</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Machine Shoulder Press</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Cable Raises</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Front Raises</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+		<key>Arms</key>
+		<dict>
+			<key>Preacher Curls</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Tricep Extensions</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Reg Dumbbell Curls</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>SkullCrushers</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+		<key>Legs</key>
+		<dict>
+			<key>Squats</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Deadlifts</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Leg Extensions</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Leg Curls</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>Pullups</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Bent Over Rows</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Lat Pulldowns</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Rows</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
 		<key>Chest</key>
 		<dict>
+			<key>Cables</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Incline Bench</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Flys</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
 			<key>Bench Press</key>
 			<array>
 				<integer>3</integer>
@@ -81,8 +742,120 @@
 	</dict>
 	<key>Saturday</key>
 	<dict>
+		<key>Delts/Traps</key>
+		<dict>
+			<key>Lateral Raises</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Dumbbell Shoulder Press</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Machine Shoulder Press</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Cable Raises</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Front Raises</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+		<key>Arms</key>
+		<dict>
+			<key>Preacher Curls</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Tricep Extensions</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Reg Dumbbell Curls</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>SkullCrushers</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+		<key>Legs</key>
+		<dict>
+			<key>Squats</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Deadlifts</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Leg Extensions</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Leg Curls</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>Pullups</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Bent Over Rows</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Lat Pulldowns</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>Rows</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+		</dict>
 		<key>Chest</key>
 		<dict>
+			<key>Cables</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Incline Bench</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
+			<key>Flys</key>
+			<array>
+				<integer>3</integer>
+				<integer>12</integer>
+			</array>
 			<key>Bench Press</key>
 			<array>
 				<integer>3</integer>

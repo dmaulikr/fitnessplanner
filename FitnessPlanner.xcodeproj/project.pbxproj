@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015131DA1DF3C5F7005983C7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015131D91DF3C5F7005983C7 /* ThirdViewController.swift */; };
+		01959EA51DF7E3AF00D77673 /* TimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01959EA41DF7E3AF00D77673 /* TimerVC.swift */; };
 		0196C9751DE262C400AFDC9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0196C9741DE262C400AFDC9D /* AppDelegate.swift */; };
 		0196C9771DE262C400AFDC9D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0196C9761DE262C400AFDC9D /* FirstViewController.swift */; };
 		0196C9791DE262C400AFDC9D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0196C9781DE262C400AFDC9D /* SecondViewController.swift */; };
@@ -15,12 +17,16 @@
 		0196C9811DE262C400AFDC9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0196C97F1DE262C400AFDC9D /* LaunchScreen.storyboard */; };
 		0196C9891DE265D200AFDC9D /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0196C9881DE265D200AFDC9D /* ProgressBar.swift */; };
 		0196C98B1DE2692B00AFDC9D /* WorkoutInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0196C98A1DE2692B00AFDC9D /* WorkoutInformation.swift */; };
+		01A8049B1DF4A708008D582F /* ThirdDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8049A1DF4A708008D582F /* ThirdDetailVC.swift */; };
+		01A8049D1DF52596008D582F /* ThirdSubDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8049C1DF52596008D582F /* ThirdSubDetailVC.swift */; };
 		01EE69451DE291C2002FAB77 /* workouts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01EE69441DE291C2002FAB77 /* workouts.plist */; };
 		01EE69481DE2BDDC002FAB77 /* DetailExerciseControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EE69461DE2BDDC002FAB77 /* DetailExerciseControllerViewController.swift */; };
 		01EE69491DE2BDDC002FAB77 /* DetailExerciseControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01EE69471DE2BDDC002FAB77 /* DetailExerciseControllerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		015131D91DF3C5F7005983C7 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		01959EA41DF7E3AF00D77673 /* TimerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerVC.swift; sourceTree = "<group>"; };
 		0196C9711DE262C400AFDC9D /* FitnessPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0196C9741DE262C400AFDC9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0196C9761DE262C400AFDC9D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +37,8 @@
 		0196C9821DE262C400AFDC9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0196C9881DE265D200AFDC9D /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		0196C98A1DE2692B00AFDC9D /* WorkoutInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutInformation.swift; sourceTree = "<group>"; };
+		01A8049A1DF4A708008D582F /* ThirdDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdDetailVC.swift; sourceTree = "<group>"; };
+		01A8049C1DF52596008D582F /* ThirdSubDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdSubDetailVC.swift; sourceTree = "<group>"; };
 		01EE69441DE291C2002FAB77 /* workouts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = workouts.plist; sourceTree = "<group>"; };
 		01EE69461DE2BDDC002FAB77 /* DetailExerciseControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailExerciseControllerViewController.swift; sourceTree = "<group>"; };
 		01EE69471DE2BDDC002FAB77 /* DetailExerciseControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailExerciseControllerViewController.xib; sourceTree = "<group>"; };
@@ -78,6 +86,10 @@
 				01EE69441DE291C2002FAB77 /* workouts.plist */,
 				01EE69461DE2BDDC002FAB77 /* DetailExerciseControllerViewController.swift */,
 				01EE69471DE2BDDC002FAB77 /* DetailExerciseControllerViewController.xib */,
+				015131D91DF3C5F7005983C7 /* ThirdViewController.swift */,
+				01A8049A1DF4A708008D582F /* ThirdDetailVC.swift */,
+				01A8049C1DF52596008D582F /* ThirdSubDetailVC.swift */,
+				01959EA41DF7E3AF00D77673 /* TimerVC.swift */,
 			);
 			path = FitnessPlanner;
 			sourceTree = "<group>";
@@ -158,9 +170,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0196C9791DE262C400AFDC9D /* SecondViewController.swift in Sources */,
+				01A8049D1DF52596008D582F /* ThirdSubDetailVC.swift in Sources */,
 				0196C9751DE262C400AFDC9D /* AppDelegate.swift in Sources */,
 				0196C9891DE265D200AFDC9D /* ProgressBar.swift in Sources */,
+				015131DA1DF3C5F7005983C7 /* ThirdViewController.swift in Sources */,
 				0196C98B1DE2692B00AFDC9D /* WorkoutInformation.swift in Sources */,
+				01959EA51DF7E3AF00D77673 /* TimerVC.swift in Sources */,
+				01A8049B1DF4A708008D582F /* ThirdDetailVC.swift in Sources */,
 				0196C9771DE262C400AFDC9D /* FirstViewController.swift in Sources */,
 				01EE69481DE2BDDC002FAB77 /* DetailExerciseControllerViewController.swift in Sources */,
 			);

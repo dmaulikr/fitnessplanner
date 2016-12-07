@@ -14,14 +14,17 @@ class WorkoutInformation {
     
     static let WIInstance = WorkoutInformation()
     
-    let daysOfWeek = ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+    let daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
     
     var weeksWorkout = [String : [String: [String: [Int]]]]() // holds all current workout information for the week [Day : todaysWorkout]
-    var todaysWorkout = [String: [String: [Int]]]()    // can change daily
+    var todaysWorkout = [String: [String: [Int]]]()     // can change daily
                                                         // [MuscleGroup : [Exercise: [NumSets, NumReps]]]
                                                         // nested array MUST be of size 2!
     
     var day: String
+    
+    var setsCompleted: Int = 0
+    var totalSets: Int = 1000
     
     let date = Date()
     let calendar = Calendar.current
@@ -30,14 +33,19 @@ class WorkoutInformation {
     init() {
         print("Initializing WIInstance")
         day = ""
+        print("trying to update day")
         updateDay()
         let path = Bundle.main.path(forResource: "workouts", ofType: "plist")
         weeksWorkout = NSDictionary(contentsOfFile: path!) as! [String : [String : [String : [Int]]]] // this better work
         todaysWorkout = weeksWorkout[day]!
+        print("WIInstance initialized")
     }
     
     func updateDay() {
-        day = daysOfWeek[(calendar.component(.weekday, from: date))]
+        print("trying to access day")
+        print("Component is \(calendar.component(.weekday, from: date))")
+        // Thank God I tested on Saturday! The components go from 1-7, not 0-6.
+        day = daysOfWeek[(calendar.component(.weekday, from: date)) - 1]
         print(day)
     }
     
